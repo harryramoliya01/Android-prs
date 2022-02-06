@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:layout_margin="100px"
+        android:orientation="vertical">
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="40px"
+            android:text="Switch" />
+
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="40px" />
+
+    </LinearLayout>
+</FrameLayout>
+
+
+
+
+    <!--
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_gravity="top|bottom"
+        android:layout_margin="50px"
+        android:layout_marginRight="60px"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_row="0"
+            android:layout_column="0"
+            app:srcCompat="@mipmap/ic_launcherr_foreground" />
+
+        <LinearLayout
+            android:layout_width="262dp"
+            android:layout_height="match_parent"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:orientation="vertical"></LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_marginLeft="60px"
+            android:layout_marginTop="60px"
+            android:fontFamily="cursive"
+            android:text="Vrutika Ghori"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_marginLeft="60px"
+            android:layout_marginTop="160px"
+            android:text="vrutikaghori@gmail.com"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_marginLeft="60px"
+            android:layout_marginTop="245px"
+            android:layout_marginBottom="60px"
+            android:text="+91 98765 43210"
+            android:textSize="12sp" />
+
+    </GridLayout>
+    -->
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="370px"
+        android:layout_marginTop="900px"
+        android:fontFamily="cursive"
+        android:text="Hello"
+        android:textSize="21sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="900px"
+        android:fontFamily="cursive"
+        android:text="  Bhagvan !"
+        android:textSize="21sp"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="388dp" />
+
+</LinearLayout>
+
+-->
+
+<!--
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow>
+
+        <TextView
+            android:layout_marginTop="400px"
+            android:padding="5dip"
+            android:text="Bus"
+            android:textSize="50dp" />
+
+        <TextView
+            android:layout_marginTop="402px"
+            android:padding="5dip"
+            android:text="Yuhi"
+            android:textSize="50dp" />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Hello"
+            android:padding="5dip"
+            android:textSize="50dp"	/>
+
+        <TextView
+            android:text="Bhagvan"
+            android:padding="5dip"
+            android:textSize="50dp"/>
+    </TableRow>
+</TableLayout>
+
+-->
+
